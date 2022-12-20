@@ -1,4 +1,5 @@
 import {Component} from '@angular/core';
+import {ActivatedRoute, Router} from "@angular/router";
 
 
 @Component({
@@ -10,5 +11,13 @@ import {Component} from '@angular/core';
 // template -> le code de la page
 
 export class AppComponent  {
+    constructor(private routes: ActivatedRoute, private router : Router) {
 
+    }
+
+
+        goToHomePage() {
+        this.router.navigate(["/pokemons"]);
+
+    }
 }
