@@ -12,7 +12,9 @@ import { AppComponent } from './app.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [],  // -> injection de dependence
+  bootstrap: [AppComponent]  // option bootstrap définit la racine du project
 })
-export class AppModule { }
+export class AppModule {
+
+}
