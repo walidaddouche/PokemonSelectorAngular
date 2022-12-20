@@ -5,19 +5,15 @@
         <div *ngFor="let pokemon of pokemonList " class="col m4 s6">
             <div class="card horizontal">
                 <div class="card-image">
-                <img [src]="pokemon.picture" alt="">
+                    <img [src]="pokemon.picture" alt="">
                 </div>
-
                 <div class="card-stacked">
                     <div class="card-content">
                         <p>{{pokemon.name}}</p>
                         <p><small>{{pokemon.created}}</small></p>
-
                     </div>
-
                 </div>
             </div>
-
         </div>
 
     </div>
