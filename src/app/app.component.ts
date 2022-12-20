@@ -28,8 +28,7 @@ export class AppComponent implements OnInit {
             console.log("Vous avez demandé un pokemon qui n'existe pas ")
         } else {
             let name = this.pokemonSelected.name;
-            console.log(`Le pokemon selectioné est ${name}`)
-
+            console.log(`Le pokemon selectionné est ${name}`)
         }
 
     }
