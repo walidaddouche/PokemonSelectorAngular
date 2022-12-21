@@ -1,12 +1,52 @@
 <nav>
-    <div class="nav-wrapper">
-        <a (click)="goToHomePage()" class="brand-logo center">Pokédex</a>
-        <ul id="nav-mobile " class="right hide-on-med-and-down" >
+    <div class="nav-wrapper blue-grey">
+        <a class="brand-logo" src="http://www.solfalab-dz.com/img/logo.png">Home</a>
+        <a class="button-collapse text-accent-4" data-activates="mobile-demo" href="#"><i
+                class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+            <li><a>Accueil </a></li>
+            <li><a>Entreprise </a></li>
+            <li><a>Service</a></li>
+            <li><a>Produit</a></li>
+            <li><a>Télechargement</a></li>
+            <li><a>Contact</a></li>
+
         </ul>
+
     </div>
 </nav>
+
+<h3 class="center-on-small-only center"> POKEDEX </h3>
 
 <router-outlet>
 
 </router-outlet>
+
+
+<footer class="page-footer blue-grey">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul class="left-align">
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2022 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        </div>
+    </div>
+</footer>
 
